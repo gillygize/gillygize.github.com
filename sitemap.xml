@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://gillygize.github.com/blog/2012/06/22/setting-up-octopress/</loc>
+        <lastmod>2012-06-22T18:39:54+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://gillygize.github.com/bio/</loc>
         <lastmod>2012-06-22T17:48:50+09:00</lastmod>
     </url>
     <url>
         <loc>http://gillygize.github.com/blog/archives/</loc>
-        <lastmod>2012-06-22T12:14:49+09:00</lastmod>
+        <lastmod>2012-06-22T18:39:54+09:00</lastmod>
     </url>
     <url>
         <loc>http://gillygize.github.com/</loc>
-        <lastmod>2012-06-22T12:14:49+09:00</lastmod>
+        <lastmod>2012-06-22T18:39:54+09:00</lastmod>
     </url>
 </urlset>
