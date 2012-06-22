@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>bio - mattgillingham.com</title>
+  <title>Bio - mattgillingham.com</title>
   <meta name="author" content="Matthew Gillingham">
 
   
-  <meta name="description" content=" Bio Jun 22nd, 2012 Jun 22nd, 2012 Tweet Recent Posts ">
+  <meta name="description" content="Bio Jun 22nd, 2012 Matthew Gillingham is a software engineer living in Tokyo, Japan. For the past several years, he has primarily been involved in &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,7 +80,9 @@
 <time datetime="2012-06-22T14:16:00+09:00" pubdate data-updated="true">Jun 22<span>nd</span>, 2012</time></p>
   </header>
   
-  
+  <p>Matthew Gillingham is a software engineer living in Tokyo, Japan.  For the past several years, he has primarily been involved in Objective-C, Javascript, Ruby and Python, working for companies such as <a href="http://www.tonchidot.com">Tonchidot</a> and <a href="http://www.gree-corp.com">GREE</a>.  His projects have spanned from games to social networking platforms.  He also leads the <a href="http://www.meetup.com/TokyoiOSMeetup/">Tokyo iOS Developers Meetup</a>, the largest English-language meetup group for iOS Developer&#8217;s in Tokyo area.</p>
+
+<p>In addition to software development, he has a strong interest in social science, including a Master&#8217;s Degree in Global Studies at <a href="http://www.sophia.ac.jp/eng">Sophia University</a>.</p>
 
   
     <footer>
@@ -104,7 +106,7 @@
       
         <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://gillygize.github.com/bio/index.html" data-via="" data-counturl="http://gillygize.github.com/bio/index.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://gillygize.github.com/bio/index.html" data-via="gillygize" data-counturl="http://gillygize.github.com/bio/index.html" >Tweet</a>
   
   
   
@@ -126,6 +128,51 @@
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/gillygize">@gillygize</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'gillygize',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("gillygize", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/gillygize" class="twitter-follow-button" data-show-count="false">Follow @gillygize</a>
+  
+</section>
 
 
 
